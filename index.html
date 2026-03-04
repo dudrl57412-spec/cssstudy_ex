@@ -1,11 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      h1 {
+        color: #00f; /* 16진수 표기법 */
+        text-align: center;
+        /* text-shadow:가로거리 세로거리 번짐정도 색상 ; */
+        text-shadow: 2px 2px 5px #333; /*글자 그림자 코드*/
+        letter-spacing: -2px; /*글자 간격 조절 코드*/
+      }
+      h2 {
+        color: pink;
+        text-shadow: 7px -7px 1px #000;
+      }
+      p {
+        color: green; /* 색상 이름 표기법 */
+        text-align: right; /*택스트 위치변경 코드*/
+        line-height: 50px; /*줄 간격 조절 코드*/
+      }
+      span {
+        color: rgb(255, 0, 0); /* rgb 표기법 */
+        font-weight: bold;
+      }
+      .hanra {
+        color: orangered;
+        font-weight: 400;
+      }
+      .orange {
+        color: crimson;
+      }
+      .p2 {
+        color: yellow;
+        text-align: center;
+      }
+      .p3 {
+        color: blueviolet;
+        text-align: center;
+      }
+      em {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        text-align: center;
+        line-height: 200px; /* 글자 위아래로 위치 변경 태그*/
+        text-decoration: underline;
+      }
+      .box1 {
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        text-align: center; /* 글자 중간으로 변경 태그*/
+        line-height: 100px;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>레드향</h1>
+    <h2>여재준</h2>
+    <p>껍질에 붉은 빚이 돌아 <span>레드향 </span>이라 불린다</p>
+    <p class="p2">
+      레드향은 <span class="hanra">한라봉</span>과
+      <span class="orange">귤</span>을 교배한 것으로
+    </p>
+    <p class="p3">일반 귤보다 2~3배 크고, 과육이 <em>붉고 통통</em>하다</p>
+    <!-- 박스 안에 글자 중간 정렬 -->
+    <div class="box">박스 - 1</div>
+    <div class="box1">박스 - 2</div>
+    <a href="https://www.google.com/">구글로이동</a>
+  </body>
 </html>
