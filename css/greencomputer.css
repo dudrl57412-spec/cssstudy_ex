@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.greencomputer{
+    list-style-type: none;
+    color: white;
+    background-color: pink;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.greencomputer li{
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.greencomputer :last-child{
+    margin: 0px;
+}
