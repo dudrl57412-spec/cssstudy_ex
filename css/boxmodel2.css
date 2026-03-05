@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 100px;
+    width: 200px;
+    margin: 30px;
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(204, 2, 255);
+    /* margin: 0 auto; 중간으로 배치하는 방법 */
+    margin-left: auto;
+}
+#box3{
+    background-color: rgb(255, 0, 98);
+    margin: 40px auto;
+}

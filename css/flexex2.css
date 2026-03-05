@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flexex2 {
+  width: 1000px;
+  background-color: #f13636;
+  display: flex;
+  margin: auto;
+  gap: 50px;
+  padding: 50px;
+}
+.flexex2 img {
+  width: 500px;
+  height: 255px;
+  border-radius: 30px 30px 30px 30px;
+}
+.contant {
+  width: 500px;
+  background-color: #2314ff;
+  padding: 30px;
+  border-radius: 30px 30px 30px 30px;
+}
+.contant h1 {
+  width: 280px;
+  height: 50px;
+  color: white;
+  background-color: rgb(131, 133, 134);
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  padding-left: 0;
+}
+.contant h2 {
+  width: 400px;
+  font-size: 35px;
+  padding: 10px;
+  padding-left: 0;
+}
+.contant p {
+  font-size: 35px;
+  margin-top: 10px;
+}
