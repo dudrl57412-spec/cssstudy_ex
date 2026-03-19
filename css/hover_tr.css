@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-box{
+    margin: 100px auto;
+    width: 500px;
+    background-color: red;
+    position: relative;
+}
+.img-box img{
+    display: block;
+    width: 100%;
+}
+.text_area{
+    /* display: none; */
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ;
+
+}
+.text_area p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 24px;
+    color: #fff;
+    /* text-align: center; */
+}
+.line{
+    position:absolute;
+    bottom: 140px;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+/* 호버기능 */
+.img-box:hover .text_area{
+    /* display: block; */
+    opacity: 1;
+    cursor: pointer;
+}
+.img-box:hover .line{
+    width: 100px;
+}
